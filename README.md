@@ -38,7 +38,7 @@ Users can enter a username and choose a chat room.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/harshrajput-0/chatroom-app.git
 ```
 
 Go to the project directory:
