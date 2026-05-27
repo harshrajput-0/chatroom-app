@@ -87,15 +87,14 @@ http://localhost:3000
 - Socket.IO establishes a WebSocket connection.
 - Messages are broadcasted to users inside the same room.
 - User join/leave events update the active users list.
+- The app currently uses localstorage so data will be lost once you exit the tab
 
 ## Future Improvements
 
-- Private messaging
 - Authentication
 - Typing indicators
 - Message timestamps
 - Database storage
-- Mobile optimization
 
 ## Author
 
