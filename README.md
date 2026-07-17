@@ -44,7 +44,7 @@ git clone https://github.com/harshrajput-0/chatroom-app.git
 Go to the project directory:
 
 ```bash
-cd your-repo-name
+cd chatroom-app
 ```
 
 Install dependencies:
@@ -53,17 +53,24 @@ Install dependencies:
 npm install
 ```
 
-Start the server:
+### Run in development
+
+```bash
+npm run dev
+```
+
+### Run in production
 
 ```bash
 npm start
 ```
 
-Open in browser:
+Open your browser and visit:
 
 ```txt
 http://localhost:3000
 ```
+
 
 ## Project Structure
 
@@ -98,7 +105,7 @@ http://localhost:3000
 
 ## Author
 
-Harsh
+Harsh Rajput
 
 ## License
 
