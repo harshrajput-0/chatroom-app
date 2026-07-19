@@ -211,7 +211,7 @@ select:focus-visible {
 
 .chat-messages {
   padding: 3rem;
-  max-height: 50rem;
+  height: 50rem;
   overflow-y: auto;
   background: var(--surface-panel);
 }
@@ -227,10 +227,7 @@ select:focus-visible {
   max-width: 65%;
 }
 
-/* Messages sent by the current user sit on the left,
-   messages from everyone else sit on the right.
-   Add class="message own-message" or class="message received-message"
-   in your JS when rendering each message (see note below). */
+
 .chat-messages .message.own-message {
   margin-right: auto;
   background-color: var(--accent-dim);
